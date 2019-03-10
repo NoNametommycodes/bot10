@@ -3,12 +3,12 @@ const client = new Discord.Client();
 var prefix = "W";
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : NoName`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : NoName ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Wolf Community`,"http://twitch.tv/Death Shop")
+client.user.setGame(`IG Store`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
